@@ -12,10 +12,10 @@ hbs.registerHelper("currentYear", function(input){
 
 app.use(express.static(__dirname + "/public"));
 
-app.use(function(request, response, next){
+/*app.use(function(request, response, next){
 	response.render("blocker.hbs");
 	//next();
-});
+});*/
 
 app.get("/", function(request, response){
 	//response.send("Hello There!!!");
